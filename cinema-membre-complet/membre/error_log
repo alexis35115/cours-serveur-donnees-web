@@ -1,0 +1,30 @@
+[28-Jan-2020 22:59:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tim_harrissonb.membre' doesn't exist in /home/tim/public_html/etudiants/2018/harrissonb/cinema-membre/membre/traitement-authentification-membre.php:21
+Stack trace:
+#0 /home/tim/public_html/etudiants/2018/harrissonb/cinema-membre/membre/traitement-authentification-membre.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/tim/public_html/etudiants/2018/harrissonb/cinema-membre/membre/traitement-authentification-membre.php on line 21
+[28-Jan-2020 22:59:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tim_harrissonb.membre' doesn't exist in /home/tim/public_html/etudiants/2018/harrissonb/cinema-membre/membre/traitement-authentification-membre.php:21
+Stack trace:
+#0 /home/tim/public_html/etudiants/2018/harrissonb/cinema-membre/membre/traitement-authentification-membre.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/tim/public_html/etudiants/2018/harrissonb/cinema-membre/membre/traitement-authentification-membre.php on line 21
+[18-Feb-2020 13:43:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'tim_utilisateur'@'localhost' (using password: YES) in /home/tim/public_html/etudiants/2018/harrissonb/cinema/connexion.php:23
+Stack trace:
+#0 /home/tim/public_html/etudiants/2018/harrissonb/cinema/connexion.php(23): PDO->__construct('mysql:dbname=ti...', 'tim_utilisateur', 'ovosfjhos')
+#1 /home/tim/public_html/etudiants/2018/harrissonb/cinema/membre/traitement-inscription.php(26): include('/home/tim/publi...')
+#2 {main}
+  thrown in /home/tim/public_html/etudiants/2018/harrissonb/cinema/connexion.php on line 23
+[18-Feb-2020 16:25:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_random() in /home/tim/public_html/etudiants/2018/harrissonb/cinema/membre/traitement-inscription.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/tim/public_html/etudiants/2018/harrissonb/cinema/membre/traitement-inscription.php on line 22
+[18-Feb-2020 20:06:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prenom' cannot be null in /home/tim/public_html/etudiants/2018/harrissonb/cinema/membre/traitement-inscription.php:40
+Stack trace:
+#0 /home/tim/public_html/etudiants/2018/harrissonb/cinema/membre/traitement-inscription.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/tim/public_html/etudiants/2018/harrissonb/cinema/membre/traitement-inscription.php on line 40
+[18-Feb-2020 21:19:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'prenom' cannot be null in /home/tim/public_html/etudiants/2018/harrissonb/cinema/membre/traitement-inscription.php:40
+Stack trace:
+#0 /home/tim/public_html/etudiants/2018/harrissonb/cinema/membre/traitement-inscription.php(40): PDOStatement->execute()
+#1 {main}
+  thrown in /home/tim/public_html/etudiants/2018/harrissonb/cinema/membre/traitement-inscription.php on line 40
